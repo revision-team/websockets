@@ -29,3 +29,5 @@ We can also appreciate the `HeartBeat` comming from the `proxy`.
 If we shutdown the `server`, the expected behavior is that the `client` still gets the heartbeat from the `proxy`, which tries to connect to the `server` in order to keep transmitting the messages.
 
 If we setup the `server` again, we should be able to see the normal flow again...
+
+Note: We are not considering subscriptions for the server. Some messages can be lost if we connect multiple clients.
