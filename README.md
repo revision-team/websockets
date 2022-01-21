@@ -1,6 +1,6 @@
 ## Chaotic Web Sockets
 
-The intention of this project is to show the behavior of a `server` that can fail some times and a `proxy` that tries to be stable between the `proxy` and the `clients`.
+The intention of this project is to show the behavior of a `server` that can fail some times and a `proxy` that tries to be stable between the `server` and the `clients`.
 
 ## instructions
 
